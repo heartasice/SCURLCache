@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E4F17C1DE53E2600D01E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F17B1DE53E2600D01E1A /* main.m */; };
+		07E4F17F1DE53E2600D01E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F17E1DE53E2600D01E1A /* AppDelegate.m */; };
+		07E4F1821DE53E2600D01E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F1811DE53E2600D01E1A /* ViewController.m */; };
+		07E4F1851DE53E2600D01E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4F1831DE53E2600D01E1A /* Main.storyboard */; };
+		07E4F1871DE53E2600D01E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E4F1861DE53E2600D01E1A /* Assets.xcassets */; };
+		07E4F18A1DE53E2600D01E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E4F1881DE53E2600D01E1A /* LaunchScreen.storyboard */; };
+		07E4F1B31DE5488800D01E1A /* SCURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F1AC1DE5488800D01E1A /* SCURLCache.m */; };
+		07E4F1B41DE5488800D01E1A /* SCURLCacheMk.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F1AE1DE5488800D01E1A /* SCURLCacheMk.m */; };
+		07E4F1B51DE5488800D01E1A /* SCURLCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F1B01DE5488800D01E1A /* SCURLCacheModel.m */; };
+		07E4F1B61DE5488800D01E1A /* SCURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E4F1B21DE5488800D01E1A /* SCURLProtocol.m */; };
+		EAE6FA3D263230005D20CDE6 /* libPods-SCURLCacheDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0258FAAA7B8E8BE07DC77D10 /* libPods-SCURLCacheDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0258FAAA7B8E8BE07DC77D10 /* libPods-SCURLCacheDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCURLCacheDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4F1771DE53E2600D01E1A /* SCURLCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCURLCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E4F17B1DE53E2600D01E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07E4F17D1DE53E2600D01E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07E4F17E1DE53E2600D01E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07E4F1801DE53E2600D01E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07E4F1811DE53E2600D01E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07E4F1841DE53E2600D01E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07E4F1861DE53E2600D01E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07E4F1891DE53E2600D01E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07E4F18B1DE53E2600D01E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E4F1AB1DE5488800D01E1A /* SCURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCURLCache.h; sourceTree = "<group>"; };
+		07E4F1AC1DE5488800D01E1A /* SCURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCURLCache.m; sourceTree = "<group>"; };
+		07E4F1AD1DE5488800D01E1A /* SCURLCacheMk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCURLCacheMk.h; sourceTree = "<group>"; };
+		07E4F1AE1DE5488800D01E1A /* SCURLCacheMk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCURLCacheMk.m; sourceTree = "<group>"; };
+		07E4F1AF1DE5488800D01E1A /* SCURLCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCURLCacheModel.h; sourceTree = "<group>"; };
+		07E4F1B01DE5488800D01E1A /* SCURLCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCURLCacheModel.m; sourceTree = "<group>"; };
+		07E4F1B11DE5488800D01E1A /* SCURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCURLProtocol.h; sourceTree = "<group>"; };
+		07E4F1B21DE5488800D01E1A /* SCURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCURLProtocol.m; sourceTree = "<group>"; };
+		261DF07072724E234D4BFC97 /* Pods-SCURLCacheDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCURLCacheDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCURLCacheDemo/Pods-SCURLCacheDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A683EC4856F35E1E60225919 /* Pods-SCURLCacheDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCURLCacheDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCURLCacheDemo/Pods-SCURLCacheDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E4F1741DE53E2600D01E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE6FA3D263230005D20CDE6 /* libPods-SCURLCacheDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E4F16E1DE53E2600D01E1A = {
+			isa = PBXGroup;
+			children = (
+				07E4F1791DE53E2600D01E1A /* SCURLCacheDemo */,
+				07E4F1781DE53E2600D01E1A /* Products */,
+				D78C0E947DA9B79618D8963A /* Pods */,
+				62425A661D3C74E0E9708B34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07E4F1781DE53E2600D01E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E4F1771DE53E2600D01E1A /* SCURLCacheDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E4F1791DE53E2600D01E1A /* SCURLCacheDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07E4F1AA1DE5488800D01E1A /* SCURLCache */,
+				07E4F17D1DE53E2600D01E1A /* AppDelegate.h */,
+				07E4F17E1DE53E2600D01E1A /* AppDelegate.m */,
+				07E4F1801DE53E2600D01E1A /* ViewController.h */,
+				07E4F1811DE53E2600D01E1A /* ViewController.m */,
+				07E4F1831DE53E2600D01E1A /* Main.storyboard */,
+				07E4F1861DE53E2600D01E1A /* Assets.xcassets */,
+				07E4F1881DE53E2600D01E1A /* LaunchScreen.storyboard */,
+				07E4F18B1DE53E2600D01E1A /* Info.plist */,
+				07E4F17A1DE53E2600D01E1A /* Supporting Files */,
+			);
+			path = SCURLCacheDemo;
+			sourceTree = "<group>";
+		};
+		07E4F17A1DE53E2600D01E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E4F17B1DE53E2600D01E1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07E4F1AA1DE5488800D01E1A /* SCURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				07E4F1AB1DE5488800D01E1A /* SCURLCache.h */,
+				07E4F1AC1DE5488800D01E1A /* SCURLCache.m */,
+				07E4F1AD1DE5488800D01E1A /* SCURLCacheMk.h */,
+				07E4F1AE1DE5488800D01E1A /* SCURLCacheMk.m */,
+				07E4F1AF1DE5488800D01E1A /* SCURLCacheModel.h */,
+				07E4F1B01DE5488800D01E1A /* SCURLCacheModel.m */,
+				07E4F1B11DE5488800D01E1A /* SCURLProtocol.h */,
+				07E4F1B21DE5488800D01E1A /* SCURLProtocol.m */,
+			);
+			path = SCURLCache;
+			sourceTree = "<group>";
+		};
+		62425A661D3C74E0E9708B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0258FAAA7B8E8BE07DC77D10 /* libPods-SCURLCacheDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D78C0E947DA9B79618D8963A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261DF07072724E234D4BFC97 /* Pods-SCURLCacheDemo.debug.xcconfig */,
+				A683EC4856F35E1E60225919 /* Pods-SCURLCacheDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E4F1761DE53E2600D01E1A /* SCURLCacheDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E4F18E1DE53E2600D01E1A /* Build configuration list for PBXNativeTarget "SCURLCacheDemo" */;
+			buildPhases = (
+				18A16BEC90C9794EE9092971 /* [CP] Check Pods Manifest.lock */,
+				07E4F1731DE53E2600D01E1A /* Sources */,
+				07E4F1741DE53E2600D01E1A /* Frameworks */,
+				07E4F1751DE53E2600D01E1A /* Resources */,
+				2FF0BF5DD76F3D59B705D072 /* [CP] Embed Pods Frameworks */,
+				AFE647F51DB007DA1E92E0BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCURLCacheDemo;
+			productName = SCURLCacheDemo;
+			productReference = 07E4F1771DE53E2600D01E1A /* SCURLCacheDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E4F16F1DE53E2600D01E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Eric Che";
+				TargetAttributes = {
+					07E4F1761DE53E2600D01E1A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 07E4F1721DE53E2600D01E1A /* Build configuration list for PBXProject "SCURLCacheDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07E4F16E1DE53E2600D01E1A;
+			productRefGroup = 07E4F1781DE53E2600D01E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E4F1761DE53E2600D01E1A /* SCURLCacheDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E4F1751DE53E2600D01E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4F18A1DE53E2600D01E1A /* LaunchScreen.storyboard in Resources */,
+				07E4F1871DE53E2600D01E1A /* Assets.xcassets in Resources */,
+				07E4F1851DE53E2600D01E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A16BEC90C9794EE9092971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF0BF5DD76F3D59B705D072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCURLCacheDemo/Pods-SCURLCacheDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE647F51DB007DA1E92E0BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCURLCacheDemo/Pods-SCURLCacheDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E4F1731DE53E2600D01E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4F1B41DE5488800D01E1A /* SCURLCacheMk.m in Sources */,
+				07E4F1B31DE5488800D01E1A /* SCURLCache.m in Sources */,
+				07E4F1B51DE5488800D01E1A /* SCURLCacheModel.m in Sources */,
+				07E4F1821DE53E2600D01E1A /* ViewController.m in Sources */,
+				07E4F1B61DE5488800D01E1A /* SCURLProtocol.m in Sources */,
+				07E4F17F1DE53E2600D01E1A /* AppDelegate.m in Sources */,
+				07E4F17C1DE53E2600D01E1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07E4F1831DE53E2600D01E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4F1841DE53E2600D01E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07E4F1881DE53E2600D01E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E4F1891DE53E2600D01E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E4F18C1DE53E2600D01E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07E4F18D1DE53E2600D01E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E4F18F1DE53E2600D01E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261DF07072724E234D4BFC97 /* Pods-SCURLCacheDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCURLCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcoder.SCURLCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07E4F1901DE53E2600D01E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A683EC4856F35E1E60225919 /* Pods-SCURLCacheDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCURLCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcoder.SCURLCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E4F1721DE53E2600D01E1A /* Build configuration list for PBXProject "SCURLCacheDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4F18C1DE53E2600D01E1A /* Debug */,
+				07E4F18D1DE53E2600D01E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E4F18E1DE53E2600D01E1A /* Build configuration list for PBXNativeTarget "SCURLCacheDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E4F18F1DE53E2600D01E1A /* Debug */,
+				07E4F1901DE53E2600D01E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E4F16F1DE53E2600D01E1A /* Project object */;
+}
